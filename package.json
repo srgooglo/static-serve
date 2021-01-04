@@ -3,6 +3,10 @@
   "version": "0.4.14",
   "description": "",
   "main": "index.js",
+  "files": [
+    "dist",
+    "build"
+  ],
   "scripts": {
     "start": "nodecore build && node ./dist/index.js",
     "build": "nodecore build",
