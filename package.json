@@ -1,0 +1,16 @@
+{
+  "name": "service-serve",
+  "version": "0.4.14",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodecore build && node ./dist/index.js",
+    "build": "nodecore build",
+    "package": "nodecore build && pkg ./dist/index.js --output build/serve --targets node14-win-x64,node14-darwin-x64,node14-linux-x64"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ragestudio/nodecorejs": "^0.14.7",
+    "serve-handler": "^6.1.3"
+  }
+}
